@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="FoodGoo_final">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="mysql-connector-java-8.0.12.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-8.0.12/mysql-connector-java-8.0.12">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="itextpdf-5.3.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/itextpdf-5.3.4/itextpdf-5.3.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation/activation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mail/mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="taglibs-standard-impl-1.2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/taglibs-standard-impl-1.2.5/taglibs-standard-impl-1.2.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="FoodGoo_final"/>
+        <property name="java-output-path" value="/FoodGoo_final/build/classes"/>
+    </wb-module>
+</project-modules>

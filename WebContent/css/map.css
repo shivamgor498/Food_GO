@@ -1,0 +1,34 @@
+.bo{
+    background: url(../images/b6.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map {
+  height: 100%;
+  float: left;
+  width: 100%;
+}
+
+
+option
+{
+	color:black;
+}
+b{
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+	font-size: 2em;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}

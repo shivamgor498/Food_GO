@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.bod {
+	background: url(../images/b3.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Acme';
+}
+.abubod {
+	background: url(../images/b7.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Acme';
+}
+.welbod {
+	background: url(../images/b6.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	font-family: 'Acme';
+}
+.passbod {
+	background: url(../images/b7.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Acme';
+}
+
+.htmla {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+  background-image: linear-gradient(black,white);
+}
+.containera {
+  padding: 0 16px;
+}
+.containera::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.h11 {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: comic sans ms;
+}
+.h21 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.titlea {
+  color: blue;
+  font-weight: bold;
+}
+
+.headIs {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+.abc {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+.logo {
+	padding-top: 5%;
+	opacity:1.5;
+}
+.abc:hover {
+  background-color: green;
+  color: black;
+}
+
+.logbox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 500px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.65);
+	border-radius: 5% 10%;
+}
+.sidebox {
+	position: absolute;
+	top: -1%;
+	left: 65%;
+	transform: translate(75%,50%);
+	width: 230px;
+	height: 65px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.65);
+	border-radius: 5% 10%;
+}
+.user {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+.h22 {
+	padding: 20px 20px;
+	color: #efed40;
+	text-align: center;
+}
+input[type=Email], input[type=password], input[type=text],select {
+    width: 80%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left:10%;
+}
+input[type=submit] {
+    width: 80%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:10%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+::placeholder {
+	color: #004d40;
+	font-weight: italic;
+}
+ .logbox pre {
+	color: #fff;
+	font-size: 14px;
+	font-weight: initial;
+	font-family: comic sans ms;
+	text-decoration: none;
+}
+.sidebox pre {
+	color: #fff;
+	font-size: 14px;
+	font-weight: initial;
+	font-family: comic sans ms;
+	text-decoration: none;
+}
+.logbox p {
+	color: #fff;
+	font-weight: initial;
+	font-family: 'Acme';
+	text-decoration: none;
+	font-size: 20px;
+	color: powderblue;
+    margin-left:10%;
+}
+.su {
+	color: #0f0;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.foot {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:105px;
+	text-align: center;
+	font-size: 10px;
+	color: blue;
+	font-family: comic sans ms;
+	font-weight: bold;
+} 
